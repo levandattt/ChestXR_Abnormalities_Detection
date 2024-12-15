@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and configuration
+.env
+*.yaml
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data and generated files
+src/Chest_Xray_Abnormality_Detection/data/processed/
+src/Chest_Xray_Abnormality_Detection/data/raw/
+
+# Logs and debug output
+*.log
+*.out
+*.err
+
+# Docker
+*.dockerfile
+docker-compose*
+
+# Python environment
+*.venv/
+env/
+venv/
+ENV/
+.Python
+
+# Testing
+.pytest_cache/
+.tox/
+coverage/
+*.cover
+.hypothesis/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Other files
+*.bak
+*.swp
+.DS_Store
